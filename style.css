@@ -1,0 +1,673 @@
+  * {
+	font-family: 'Montserrat', sans-serif;
+	  color: white;
+	  list-style: none;
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+	background-image: url(../img/bg.jpg);
+	background-size: auto;
+	background-position: center;
+	text-decoration-color: red;
+	text-align: center;
+}
+body.template{ 
+	background-color: #252525;
+	width: 98%;
+	background-image: url(img/bg.jpg);
+	background-size: auto;
+	background-position: center;
+	text-decoration-color: red;
+}
+div {
+	width: 100%;
+}
+strong {
+	color: rgba(255,0,7,1.00);
+}
+
+ a {
+     text-decoration: none;
+	 color:rgba(169,12,0,1.00);
+    }
+a:hover{
+	color:red;
+	
+}
+
+a.aktif{
+	color:darkred;
+}
+a.beyaz_link{
+	color:#FFFFFF;
+}
+a.beyaz_link:hover{
+	color: red;
+}
+a.darkred{
+	color: darkred;
+}
+p {
+	color:darkred
+}
+h3 {
+	color:darkred
+}
+p.stat-title {
+	color:indianred;
+}
+html {
+    scroll-behavior: smooth;
+}
+.cards-commands{
+	font-size: 10px
+}
+
+.card {
+	margin-left: 12.5%;
+	margin-top: 5%;
+	padding: 0px;
+	background-color: black;
+	box-shadow: 0 0px 1px 0 #FD0004;
+	transition: 0.3s;
+	width: 75%;
+	border-radius: 5px;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 #D30006;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*BURASI KUTU İÇİNDEKİ METİNLER VS.*/
+
+img.about_avatar {
+	border: 1.9px solid darkred;
+	border-radius: 50%;
+	margin-top: 10%;
+	margin-bottom: -15% ;
+	width: 30%;
+}
+.name {
+	text-align: center;
+	font-size: 2.8em;
+	color: darkred;
+	margin-top: 15%;
+	margin-bottom: auto;
+	text-transform: capitalize;
+}
+
+hr.about_hr {
+	width: 93%;
+	height: 1px;
+	background-color: darkred;
+	border: 0px;
+}
+.text {
+	text-align: center;
+	font-size: 1.5em;
+	color: whitesmoke;
+}
+.text2 {
+	text-align: center;
+	font-size: 1.1em;
+	color: darkgray;
+}
+
+
+
+
+
+	/* BUTON */
+
+
+.btn{
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	color: darkred;
+	background-color: #000000;
+	padding: 10px 38px;
+	border: solid darkred 1px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	border-radius: 0px 50px;
+	transition : 3000ms;
+	transform: translateY(0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.btn:hover{
+	transition : 3000ms;
+	padding: 10px 38px;
+	transform : translateY(-0px);
+	background-color: #FF0004;
+	color: #000000;
+	border: solid 1px #ff0000;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	animation-name: name;
+  	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+
+/*///////////////////////////              index                           /////////////////////////////////////////////////////////////////////////////////////////*/
+.sayfa{
+	width: 100%;
+}
+#ust{
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+	padding-bottom: 0%;
+	background-color: black;
+	box-shadow: 0 0px 20px 0 darkred;
+	transition: 0.5s;
+	width: 98%;
+	border-radius: 5px;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+#logo{
+	border: 0px solid darkred;
+	margin-top: 6px;
+	margin-bottom: auto;
+	width: 120px;
+	margin-left: 2%;
+	float: left;
+	border-radius: 10%;
+}
+#logo:hover{
+	border: 0px solid darkred;
+	margin-top: 6px;
+	margin-bottom: auto;
+	width: 120px;
+	margin-left: 2%;
+	float: left;
+	border-radius: 10%;
+	
+}
+
+#baslik{
+	color: red;
+	text-decoration: none;
+	margin-right:35px;
+	float: right;
+	font-size: 52px;
+	position: relative;
+}
+#hr{
+	width: 95%;
+	height: 5px;
+	background-color: darkred;
+	border:#FF0004;
+	border-radius: 50%;
+	
+}
+/*////////////////////////      menü //////////*/
+.menu {
+	margin-top: 3%;
+	margin-left: 15%;
+    border-radius: 10px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.menu > ul {
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 10px;
+}
+
+.menu > ul > li {
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.menu > ul > li > a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 15px;
+    color: red;
+    border-radius: 40px;
+}
+
+.menu > ul > li[data-dropdown] > a::after {
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 5px;
+    color: darkred;
+    transition: 300ms all;
+    display: inline-block;
+}
+
+.menu ul .dropdown {
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    padding-top: 10px;
+    width: 200px;
+    margin-left: -100px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0);
+    transition: 300ms all;
+}
+
+.menu ul .dropdown::before {
+    content: '';
+    border: 8px solid transparent;
+    border-bottom-color: red;
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    margin-left: -12px;
+}
+
+.menu ul .dropdown ul {
+    background: red;
+    border-radius: 10px;
+    padding: 7px 0;
+}
+
+.menu ul .dropdown ul li a {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 34px;
+    padding: 0 15px;
+    border-radius: 34px;
+    color:black;
+}
+
+.menu ul .dropdown ul li {
+    position: relative;
+    padding: 0 7px;
+}
+
+.menu ul .dropdown ul li:hover > a {
+    background: black;
+    color: red;
+}
+
+.menu > ul > li:hover > a::after {
+    transform: rotate(180deg);
+}
+
+.menu > ul > li:hover > a {
+    background: rgba(255,0,0,1);
+	color: black;
+}
+
+.menu > ul > li:hover > a + .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.menu ul .dropdown .dropdown {
+    left: 190px;
+    top: 0;
+    padding-left: 20px;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+.menu ul .dropdown ul li:hover > .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.menu ul .dropdown .dropdown::before {
+    border-bottom-color: transparent;
+    border-right-color: red;
+    top: 10px;
+    left: 4px;
+    margin-left: 0;
+}
+
+.menu ul .dropdown li[data-dropdown] > a::after {
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: 10px;
+    color: red;
+    display: inline-block;
+    transition: 300ms all;
+}
+
+.menu ul .dropdown li[data-dropdown]:hover > a::after {
+    transform: rotate(-180deg);
+}
+
+.menu.vertical {
+    width: 200px;
+    padding: 10px 0;
+}
+
+.menu.vertical > ul {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.menu.vertical > ul > li {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.menu.vertical > ul > li > a {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu.vertical > ul > li .dropdown {
+    left: 190px;
+    top: 10px;
+    padding-left: 20px;
+    margin-left: 0;
+    padding-top: 0;
+}
+
+.menu.vertical > ul > li .dropdown .dropdown {
+    top: 0;
+}
+
+.menu.vertical > ul > li .dropdown::before {
+    border-bottom-color: transparent;
+    border-right-color: #f5f5f5;
+    top: 10px;
+    left: 4px;
+    margin-left: 0;
+}
+
+.menu.vertical > ul > li[data-dropdown] > a::after {
+    content: "f0da";
+}
+/*//////////////////////////////////////////////////////*/
+.alt
+{
+	clear: both;
+	background-color: #000000;
+	padding: 1%;
+	text-align: center;
+	color: red;
+	animation-name: name;
+  	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+#orta{
+	float: left;
+	background-color: transparent;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 3.5%;
+	width: 95%;
+	border: rgba(255,2,6,1.00);
+	border-radius: 15px;
+	box-shadow: 0px 0px 50px 0  red;
+	background-image: linear-gradient(rgba(255,7,7,0.2),rgba(255,0,0,0.2))
+}
+
+/*////////////////////////////////////////////////////BURASI TEMPLATE İN DIŞI/////////////////////////////////////////////////*/
+.card2 {
+	float: left;
+	background-color:rgba(0,0,0,1.00);
+	border-radius:1% 1% 40% 40% ;
+	width: 90%;
+	margin: 0% 0% 2% 5% ;
+	box-shadow: 0px 7px 5px 0 red;
+	background-image: linear-gradient(rgba(255,0,0,0.1), rgba(255,0,0,0.05));	background-image: linear-gradient(rgba(255,0,0,0.1), rgba(255,0,0,0.05));
+
+}
+.sol{
+	float: left;
+	margin-top: 0%;
+	margin-left: 3%;
+	width: 25.5%;
+}
+img.logo{
+	margin: 5% 0%  0% 15%;
+	border-radius: 58% 57% 62% 62%;
+	width: 70%;
+  
+}
+
+#hr{
+	width: 95%;
+	height: 5px;
+	background-color: darkred;
+	border:#FF0004;
+	border-radius: 50%;
+	
+}
+
+
+
+.sag{
+	margin-top: 4%;
+	text-align: center;
+	float: left;
+	width: 65.5%;
+	color: white;
+	border-radius: 1%;
+}
+
+.btn2{
+	margin-left: 9%;
+	float: left;
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	color: darkred;
+	background-color: #000000;
+	padding: 10px 38px;
+	border: solid darkred 1px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	border-radius: 0px 50px;
+	transition : 3000ms;
+	transform: translateY(0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.btn2:hover{
+	transition : 3000ms;
+	padding: 10px 38px;
+	transform : translateY(-0px);
+	background-color: #FF0004;
+	color: #000000;
+	border: solid 1px #ff0000;
+}
+/*
+EFFECT
+*/
+.card3 {
+	background-color: rgba(255,0,0,0.14);
+	float: left;
+	border-radius:1% 1% 1% 1% ;
+	width: 100%;
+	height: 50px;
+	margin: -28% 0% 0% 0% ;
+	box-shadow: 0px -0px 400px 0px red;
+	animation-name: name;
+  	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	border-radius: 2%;
+  
+}
+/*RGB EFFECTLERİ LUŞTURAN KISIMDIR YORUM SATIRINI SILDIĞINIZDE ÇALIŞACAKTIR ŞUANDA ETİTU DONDURDUĞU İÇİN YORUM SATIRINDADIR
+@keyframes name {
+  0%   {box-shadow: 0px -0px 400px 0px red;}
+  25%  {box-shadow: 0px -0px 400px 0px blue;}
+  50%  {box-shadow: 0px -0px 400px 0px green;}
+  75%  {box-shadow: 0px -0px 400px 0px yellow;}
+  100% {box-shadow: 0px -0px 400px 0px violet;}
+}
+
+/*
+BURASI  KISA ANLATIM
+*/
+
+
+
+.cards-div{
+	float: left;
+	background-color: rgba(0,0,0,1.00);
+	border-radius: 10px;
+	width: 90%;
+	margin: 0% 0% 2% 5%;
+	background-image: linear-gradient(rgba(255,0,0,0.09), rgba(255,0,0,0.05));
+}
+.cards {
+	float: left;
+	width: 25%;
+	padding: 2% ;
+	border-radius: 10px;
+	background: rgba(32,34,37,1.00);
+	color: black;
+	margin: 2%;
+	box-shadow: -1px 1px 20px 2px #00000030;
+}
+/*
+istatikler
+*/
+
+.stat-cards{
+	float: left;
+	width: 14%;
+    margin: 0%;
+}
+.stat-cards-t{
+	float: right;
+	width: 14%;
+    margin: 0% 0% 0% 0%;
+}
+.cards-div-t{
+	
+}
+/*
+comands resimli tanıtım
+*/
+
+#hr2{
+	width: 85%;
+	height: 7px;
+	background-color: black;
+	border:rgba(0,0,0,1.00);
+	border-radius: 30%;
+
+	
+}
+.commands-div{
+	float: left;
+	width: 100%;
+	
+}
+.div-ozellik{
+	float: left;
+	background-color: rgba(32,34,37,1.00);
+	border-radius: 10px;
+	padding: 3% 0% 3%  0%; 
+}
+.div-sol{
+	float: left;
+	width: 50%;
+    margin: 0%;
+
+}
+.div-sag{
+	float: right;
+	width: 50%;
+    margin: 0% 0% 0% 0%;
+}
+.ozellik {
+	border-radius: 25px;
+	border: red
+}
+/*////////////////////////// botlar   */
+
+.bot{
+	border: 0px solid darkred;
+	border-radius: 50%;
+	
+}
+.cards-bot{
+	float: left;
+	width: 25%;
+	padding: 0% 2% 0% 2% ;
+	border-radius: 10px;
+	background: rgba(32,34,37,1.00);
+	color: black;
+	margin: 2%;
+	box-shadow: -1px 1px 20px 2px red;
+	
+}
+.cards-bot:hover{
+	float: left;
+	width: 25%;
+	padding: 0% 2% 0% 2% ;
+	border-radius: 10px;
+	background-color: black;
+	color: black;
+	margin: 2%;
+	box-shadow: -1px 1px 20px 2px red;
+	
+}
+.cards-div-bot{
+	float: left;
+	background-color: rgba(0,0,0,1.00);
+	width: 90%;
+	margin: 0% 0% 0% 5%;
+
+}
+.cards-bot-town{
+	float: left;
+	width: 55%;
+	padding: 2% ;
+	border-radius: 10px;
+	background: rgba(32,34,37,1.00);
+	color: black;
+	margin: 2%;
+	box-shadow: -1px 1px 20px 2px red;
+	
+}
+.cards-bot-town:hover{
+	float: left;
+	width: 55%;
+	padding: 2% ;
+	border-radius: 10px;
+	background-color: black;
+	color: black;
+	margin: 2%;
+	box-shadow: -1px 1px 20px 2px red;
+	
+}
