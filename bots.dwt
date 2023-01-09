@@ -1,0 +1,132 @@
+
+<!doctype html>
+<html>
+	<head>
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title> TOWN BOT </title>
+	<!-- TemplateEndEditable -->
+	<link rel="stylesheet" type="text/css" href="../style.css">
+			<link rel="shortcut icon" href="../img/logo.gif" type="image/x-icon">
+      		<link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+      		<meta charset="utf-8">
+      		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+      		<meta name="viewport" content="width=device-width, initial-scale=1">
+      		<meta name="description" content="TOWN SUNUCUSUNUN BOTU" />
+      		<meta name="author" content="herzane">
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+	</head>
+
+	<body class="template">
+		<div class="sayfa">
+			
+		  <div id="ust">
+				<img id="logo" alt="logo" src="../img/logo.gif">
+				<h1 id="baslik">
+			    TOWN BOT</h1>
+				
+		    <nav class="menu">
+	<ul>
+		<li>
+			<a href="mainpage.html">
+				TOWN BOT
+			</a>
+		</li>
+		<li>
+			<a href="../developer/developer.html">
+				HAKKIMDA
+			</a>
+		</li>
+		<li data-dropdown>
+			<a href="#">
+				DAHA FAZLA
+			</a>
+			<div class="dropdown">
+				<ul>
+					<li>
+						<a href="../commands.html">
+						KOMUTLAR
+						</a>
+					</li>
+					<li data-dropdown>
+						<a href="#">
+							BAZI BOTLAR
+						</a>
+						<div class="dropdown">
+							<ul>
+								<li>
+									<a href="../pro.html">PRO BOT</a>
+								</li>
+								<li>
+									<a href="../carl.html">CARL BOT</a>
+								</li>
+								<li>
+									<a href="../secrutiy.html">SECRUTIY BOT</a>
+								</li>
+								<li>
+									<a href="../owo.html">OWO BOT</a>
+								</li>
+								<li>
+									<a href="../erensi.html">Erensi BOT</a>
+								</li>
+				</ul>
+			</div>
+		</li>
+
+			
+	</ul>
+			  </nav></div>
+          </div>
+			
+			<div id="orta">
+			  <div class="card2">
+				<div class="sol">
+                <!-- TemplateBeginEditable name="EditRegion4" --><img class="logo" src="../img/logo.jpg"  alt="logo"><!-- TemplateEndEditable --> </div>
+                  <div class="sag"><!-- TemplateBeginEditable name="EditRegion5" -->
+                  <h1><strong> HOŞGELDİN </strong></h1>
+                  <!-- TemplateEndEditable -->
+                    <blockquote>
+                      <!-- TemplateBeginEditable name="EditRegion6" -->
+                      <p> Merhaba, ben TOWN BOT. Türkçe bir discord botuyum. Gelişmiş derecede forumlu kayıt sistemim vardır. Peki ya neden beni ekleyip denemiyorsun ? Aynı zamanda Top.gg onaylı bir botum.Top.gg panelime ulaşmak için <a href="https://top.gg/tr/bot/999282811322253373">buraya</a> tıkla </p>
+                    <!-- TemplateEndEditable --> </blockquote>
+                    
+                    <p style="text-align: center;"><!-- TemplateBeginEditable name="EditRegion7" --><a href="https://discord.gg/townn">
+                    <button  class="btn2" style="margin-left: 40%"> web sitesi </button>
+                    </a><!-- TemplateEndEditable --></p>
+                    </div>
+			  </div>
+				
+				
+			
+				<div class="cards-div">
+					<div class="cards-div">
+						<h1>
+							<strong>
+								DENEYİMLERİM
+							</strong>
+						</h1>
+						<div><!-- ÖZELLİK -->
+						
+								<div class="commands-div"><!-- TemplateBeginEditable name="EditRegion8" -->
+								  <p> Kullanıcılar kendi isteklerine göre kayıt bilgilerini ayarlayabilirler. </p>
+								<!-- TemplateEndEditable --></div>
+								
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+			
+<div class="alt">
+	  <p>
+					&copy; 2022 TOWN
+				</p>
+				<p style="font-size: 14px">
+					Tüm hakları saklıdır.
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
