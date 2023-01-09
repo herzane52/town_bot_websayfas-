@@ -1,0 +1,253 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+	background-image: url(../img/bg.jpg);
+	background-size: auto;
+	background-position: center;
+	text-decoration-color: red;
+}
+body.template{
+	background-color: #252525;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	width: 98%;
+	background-image: url(file:///C|/Users/tgere/Desktop/img/bg.jpg);
+	background-size: auto;
+	background-position: center;
+	text-decoration-color: red;
+}
+div {
+	width: 100%;
+}
+strong {
+	color: red;
+}
+
+p{
+	text-align: center;
+}
+ a {
+     text-decoration: none;
+	 color:darkred;
+    }
+a:hover{
+	color: indianred;
+	
+}
+
+a.aktif{
+	color:darkred;
+}
+a.beyaz_link{
+	color:#FFFFFF;
+}
+a.beyaz_link:hover{
+	color: red;
+}
+.card {
+	margin-left: 12.5%;
+	margin-top: 5%;
+	padding: 0px;
+	background-color: black;
+	box-shadow: 0 0px 1px 0 #FD0004;
+	transition: 0.3s;
+	width: 75%;
+	border-radius: 5px;
+}
+.card:hover {
+	box-shadow: 0 8px 16px 0 #D30006;
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*BURASI KUTU İÇİNDEKİ METİNLER VS.*/
+
+img.about_avatar {
+	border: 1.9px solid darkred;
+	border-radius: 50%;
+	margin-top: 10%;
+	margin-bottom: -15% ;
+	width: 30%;
+}
+.name {
+	text-align: center;
+	font-size: 2.8em;
+	color: darkred;
+	margin-top: 15%;
+	margin-bottom: auto;
+	text-transform: capitalize;
+}
+
+hr.about_hr {
+	width: 93%;
+	height: 1px;
+	background-color: darkred;
+	border: 0px;
+}
+.text {
+	text-align: center;
+	font-size: 1.5em;
+	color: whitesmoke;
+}
+.text2 {
+	text-align: center;
+	font-size: 1.1em;
+	color: darkgray;
+}
+
+
+
+
+
+	/* BUTON */
+
+
+.btn{
+	font-family: Roboto, sans-serif;
+	font-weight: 900;
+	font-size: 14px;
+	color: darkred;
+	background-color: #000000;
+	padding: 10px 38px;
+	border: solid darkred 1px;
+	box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+	border-radius: 0px 50px;
+	transition : 3000ms;
+	transform: translateY(0);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.btn:hover{
+	transition : 3000ms;
+	padding: 10px 38px;
+	transform : translateY(-0px);
+	background-color: #FF0004;
+	color: #000000;
+	border: solid 1px #ff0000;
+}
+
+footer{
+	text-align: center;
+	color: white;
+	animation-name: name;
+  	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@keyframes name {
+  0%   {color:red;box-shadow: 0px 100px;}
+  25%  {color:yellow;}
+  50%  {color:blue;}
+  75%  {color:green;}
+  100% {color:aqua;}
+}
+
+
+/*///////////////////////////              index                           /////////////////////////////////////////////////////////////////////////////////////////*/
+.sayfa{
+	width: 100%;
+}
+#ust{
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+	padding-bottom: 0%;
+	background-color: black;
+	box-shadow: 0 0px 20px 0 darkred;
+	transition: 0.5s;
+	width: 100%;
+	border-radius: 5px;
+}
+#logo{
+	border: 0px solid darkred;
+	margin-top: 6px;
+	margin-bottom: auto;
+	width: 120px;
+	margin-left: 1%;
+	float: left;
+}
+
+
+#baslik{
+	color: red;
+	text-decoration: none;
+	margin-right:25px;
+	float: right;
+	font-size: 52px;
+}
+#hr{
+	width: 95%;
+	height: 5px;
+	background-color: darkred;
+	border:#FF0004;
+	border-radius: 50%;
+	
+}
+
+#menu{
+	float: left;
+	margin-top: 58px;
+	list-style-type: none;
+}
+
+#menu li{
+	float: right;
+}
+
+#menu li a{
+	color: red;
+	text-decoration: none;
+	margin: 5px;
+	padding: 10px 20px;
+	
+}
+
+#menu li a:hover{
+	background-color: red;
+	color:black;
+	border-radius: 10px;
+}
+
+
+.alt
+{
+	clear: both;
+	background-color: #000000;
+	padding: 1%;
+	text-align: center;
+	color: red;
+}
+#orta{
+	float: left;
+	background-color: rgba(0,0,0,1.00);
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 2%;
+	width: 98%;
+	border: rgba(255,2,6,1.00);
+	border-radius: 10px;
+	box-shadow: 0 15px 50px 0 darkred;
+	
+}
+#sol{
+	float: left;
+	margin-left: 2%;
+}
+#sag{
+	float: right;
+}
+/*////////////////////////////////////////////////////BURASI TEMPLATE İN DIŞI/////////////////////////////////////////////////*/
+.columns {
+  column-count: 2;
+  column-gap: 100px;
+  column-rule: 1px dashed #FF0000;
+}
+
