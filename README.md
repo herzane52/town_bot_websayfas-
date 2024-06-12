@@ -1,13 +1,28 @@
-# town_bot_websayfas-
-TOWN BOT WEB SAYFASI (FİNAL PROJESİ İÇİN HAZIRLANMIŞTIR)
+# TOWN  Discord Botu Web Sitesi Tasarımı 🤖💖
 
-PROJE TAMAMEN BANA AİTTİR ZATEN AÇIP BAKTIĞINIZDA NE KADAR ACEMİ OLDUĞUMU ANLAYABİLİRSİNİZ
+## Proje Hakkında 📚
 
-bu web sayfasının orjinal halıne şu adresten ulaşabilirsiniz(fazlalık kısımlar yoktur içerik eksikliğinden dolayı fazladan sayfalar ekledim )
+Bu proje, **Adobe Dreamweaver 21** kullanılarak geliştirilmiş ve çok harika olmasada bir discord botu web sitesi tasarımı içermektedir. Ayrıca, Dreamweaver uygulamasında açılabilecek bir uygulama uzantısına ait dosyaları da barındırmaktadır. 🎨
 
-https://tr-town.cf/
+Üniversitedeki web editörü dersim için final projesi olarak bu siteyi yaptım ve bu GitHub'a yüklediğim ilk projem! 🎓
 
-Ayriyetten bu sayfaya bir kaç fazladan sayfa ekledım bunlar botun kendi sitesinde yoktur bunları fınal projem için ekledim .
-projede mit lisansı vardır bu yüzden paylaşırken githubdaki örjinal linki ile paylaşınız soyleyeceklerim bu kadar .
+## Nasıl Kullanılır? 🛠️
 
-discord Herzane#0001 
+Projeyi yerel ortamınızda çalıştırmak için:
+
+1. Bu depoyu klonlayın.
+2. `index.html` dosyasını Dreamweaver'da açın.
+3. Kendinize göre düzenlemeler yapın.
+4. Değişikliklerinizi kaydedin ve canlı önizleme ile sonuçları görün!
+
+## Katkıda Bulunma 💡
+
+Her türlü katkıya açığım ve fikir alışverişinde bulunmayı seviyorum, o yüzden çekinmeden iletişime geçin! 💌
+
+## Lisans 📄
+
+Bu proje MIT Lisansı altında lisanslanmıştır.
+
+---
+
+💕 Bu projeyi beğendiyseniz, yıldız vermeyi unutmayın! Teşekkürler! 💕
